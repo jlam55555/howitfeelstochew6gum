@@ -10,10 +10,10 @@
 
 ### Authors
 
-[L]am, Jonathan ([@jlam55555][0])
-[I]valdi, Julian ([@Poobaloofa][1])
-[N]avin, Finn ([@FinnCowbell][2])
-[K]iefer, Rahul ([@rdk750][3])
+- [L]am, Jonathan ([@jlam55555][0])
+- [I]valdi, Julian ([@Poobaloofa][1])
+- [N]avin, Finn ([@FinnCowbell][2])
+- [K]iefer, Rahul ([@rdk750][3])
 
 ---
 
