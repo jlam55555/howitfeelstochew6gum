@@ -9,9 +9,9 @@
 | --- | --- |
 | Doppler Effect | Dynamic Wall |
 | MengAR (and Friends) | Augmented Reality |
-| Spirographs of Venus | Math Square |
-| Slope Fields | Math Square |
 | Purple Pendulums | Math Exploration | 
+| Slope Fields | Math Square |
+| Spirographs of Venus | Math Square |
 
 ---
 
