@@ -14,9 +14,9 @@ Math 1 ("Lava Lampy"):
 ---
 
 ### The Submission
-AP Calculus BC! We all took the class and felt that we should do something directly from it. It's something in calculus that are very visual, which would make it very eye-grabbing for kids, while also easily translate easily to theoretical mathematical methods (solving differential equations via Euler's method).
+AP Calculus BC! We all took the class and felt that we should do something directly from it. Slope fields are one of the most visual parts of calculus, which makes it very eye-grabbing for kids, while also translating easily to theoretical mathematical methods (solving differential equations via Euler's method).
 
-This idea directly correlated to two different general visualizations of slope fields, illustrated in the images above. The first is colorful and fun and and hides away the inner workings of the underlying curves. The second mode makes it very easy to see the slope linesat different points and see where the differential equation comes from, without extra colors to distract. The two modes can easily be toggled by changing the value of the `mode` variable:
+This idea directly correlated to two different general visualizations of slope fields, illustrated in the images above. The second is colorful and fun and and hides away the inner workings of the underlying curves. The first mode makes it very easy to see the slope linesat different points and see where the differential equation comes from, without extra colors to distract. The two modes can easily be toggled by changing the value of the `mode` variable:
 
     const mode = <0 for Mathy mode | 1 for Lava Lampy mode>;
 
