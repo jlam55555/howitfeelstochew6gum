@@ -18,4 +18,4 @@
 
 ### Additional Notes
 
-[1]: https://i0.kym-cdn.com/photos/images/original/000/922/154/f56.gif
+[1]: https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwie5ZbQ-p_cAhWET98KHVYiDG8QjRx6BAgBEAU&url=http%3A%2F%2Fblog.recursiveprocess.com%2F2015%2F05%2F19%2Ftracking-venus-and-earth-over-8-years%2F&psig=AOvVaw3H1TirqWK-Vjg4tiWLZNTI&ust=1531704649679350
