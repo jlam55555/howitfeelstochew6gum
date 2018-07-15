@@ -20,7 +20,7 @@
 
 * When a player steps on the exhibit, it will create a planet under where they step. 
 
-* Lines are drawn periodically between a line that was created and the subsequent line.
+* Lines are drawn periodically between a planet that was created and the subsequent planet.
 
   * Additionally, line color is determined by blending together the colors of the connected planets.
 
@@ -33,7 +33,7 @@
 ---
 ### Gallery
 
-* These are just a few examples of the wide variety of possible designs that can be made
+* These are just a few examples of the wide variety of possible designs that can be made with this exhibit.
 
 ![][2]
 
