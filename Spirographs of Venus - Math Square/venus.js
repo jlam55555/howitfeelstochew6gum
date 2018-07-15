@@ -167,7 +167,7 @@ pb.draw = function(floor, p) {
   };
 
     export const behavior = {
-      title: "Polygons of Venus",
+      title: "Spectrographs of Venus",
       init: pb.init.bind(pb),
       frameRate: 'animate',
       render: pb.render.bind(pb),
