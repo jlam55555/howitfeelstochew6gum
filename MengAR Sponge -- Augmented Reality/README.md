@@ -25,7 +25,9 @@ Fractals are abstract mathematical representation of self-symmetric shapes. They
 
 ---
 
-### Additional Notes
+### Additional Notes / Specifications
+- MengAR uses [AR.js][6] for a simple and performant way to implement AR.
+- MengAR uses [THREE.js][7] for 3D rendering.
 
 [0.1]: https://i.ytimg.com/vi/3pRAFkfASDU/hqdefault.jpg
 [0]: https://youtu.be/3pRAFkfASDU
@@ -34,3 +36,5 @@ Fractals are abstract mathematical representation of self-symmetric shapes. They
 [3]: https://www.quora.com/How-is-the-Mandelbrot-Set-used-in-real-life
 [4]: https://github.com/mengar/mengar.github.io/raw/master/img/menger-marker.png
 [5]: https://github.com/mengar/mengar.github.io/raw/master/img/sierpinski-marker.png
+[6]: https://github.com/jeromeetienne/AR.js/blob/master/README.md
+[7]: https://threejs.org/
