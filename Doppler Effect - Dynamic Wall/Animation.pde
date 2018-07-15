@@ -106,8 +106,8 @@ public static class Animation extends WallAnimation {
     // move slats
     int x = 0;
     for (DWSlat slat : wall.slats) {
-      slat.setBottom((float) (1.0/(1.0+Math.abs(x - xPos(time)))));
-      slat.setTop(positions[x++]);
+      slat.setTop((float) (1 - (1.0/(1.0+Math.abs(x - xPos(time))))));
+      slat.setBottom(positions[x++]);
     }
     
     // update points and remove if necessary
