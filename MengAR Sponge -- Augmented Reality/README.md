@@ -38,4 +38,4 @@ Fractals are abstract mathematical representation of self-symmetric shapes. They
 [5]: https://github.com/mengar/mengar.github.io/raw/master/img/sierpinski-marker.png
 [6]: https://github.com/jeromeetienne/AR.js/blob/master/README.md
 [7]: https://threejs.org/
-[8]: ../../
+[8]: ../../../

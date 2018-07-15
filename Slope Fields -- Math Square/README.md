@@ -35,4 +35,4 @@ We generated a slope field from a selection of differential equations. When a po
 [0]: ./img/mode-0.png
 [1]: ./img/mode-1.png
 [2]: https://htmlcolorcodes.com/color-chart/material-design-color-chart/
-[3]: ../../
+[3]: ../../../

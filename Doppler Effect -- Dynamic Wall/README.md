@@ -47,4 +47,4 @@ These equations can be used from trivial matters like finding the speed of an in
 [2]: https://latex.codecogs.com/gif.latex?f=\frac{v}{\lambda}
 [3]: https://latex.codecogs.com/gif.latex?f'=\frac{v_{src}&plus;v}{\lambda}=\frac{v_{src}&plus;v}{v}f
 [4]: http://www.astro.ucla.edu/~wright/doppler.htm
-[5]: ../../
+[5]: ../../../
