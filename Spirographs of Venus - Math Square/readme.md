@@ -9,11 +9,11 @@
 
 * *Spirographs of Venus* is based off of the idea of Rennaisance-era discovery of **The Pentagram of Venus**
 
-* Charting the distance between Earth and Venus for 8 Years (13 Venus years) creates a beautiful floral design, similar to that of a spirograph
+* Charting the distance between Earth and Venus for 8 Years (13 Venus years) creates a floral design.
 
 ![][1]
 
-* My program for the Math Square floor replicates this same mathematical beauty, allowing the players to step and create orbits that plot the distances between planets as they orbit the sun.
+* My exhibit for the Math Square floor replicates the mathematical beauty of orbiting bodies, allowing the players to step and create orbits that plot the distances between planets as they orbit the sun.
 ---
 
 ### Additional Notes
