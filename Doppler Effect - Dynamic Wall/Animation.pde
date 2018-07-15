@@ -16,6 +16,8 @@ public static class Animation extends WallAnimation {
   float[] positions = new float[wallLength];
   ArrayList<Point> points = new ArrayList<Point>();
   float interval = 1000 / 6.0;
+  float period = 40*PI;
+  float b = 2*PI/period;
   
   // for points propagating outward
   public class Point {
@@ -41,47 +43,46 @@ public static class Animation extends WallAnimation {
     
     /*
       timing function of source particle
-      period is 20pi seconds
       
-      schedule: (80pi seconds)
-      - 1: go back and forth two times (40pi seconds)
-      - 2: stay in the middle (10pi seconds)
-      - 3: go back to the beginning (5pi seconds)
-      - 4: create a sonic boom! (10pi seconds)
-      - 5: go back to the middle (5pi seconds)
-      - 6: stay in the middle (10pi seconds)
+      schedule: (4 periods)
+      - 1: go back and forth two times (2 periods seconds)
+      - 2: stay in the middle (1/2 period)
+      - 3: go back to the beginning (1/4 period)
+      - 4: create a sonic boom! (1/2 period)
+      - 5: go back to the middle (1/4 period)
+      - 6: stay in the middle (1/2 period)
     */
     
-    double timeBlock = t % (80*Math.PI);
+    double timeBlock = t % (4*period);
     double output;
     // 1
-    if(timeBlock < 40*Math.PI) {
-      output = wallLength/2 + 50*Math.sin(t/10);
+    if(timeBlock < 2*period) {
+      output = wallLength/2 + 50*Math.sin(b*t);
     }
     // 2
-    else if(timeBlock < 50*Math.PI) {
-      output = wallLength/2;
+    else if(timeBlock < 5.0/2*period) {
+      output = wallLength/2.0;
     }
     // 3
-    else if(timeBlock < 55*Math.PI) {
-      output = -wallLength/10 * (t - 55*Math.PI) / Math.PI;
+    else if(timeBlock < 11.0/4*period) {
+      output = -2.0*wallLength/period * (timeBlock - 11.0/4*period);
     }
     // 4
-    else if(timeBlock < 65*Math.PI) {
-      output = 127/100.0 * Math.pow(t - 55*Math.PI, 2) / Math.PI / Math.PI;
+    else if(timeBlock < 13.0/4*period) {
+      output = 127.0/Math.pow(period/2, 2) * Math.pow(timeBlock - 11.0/4*period, 2);
     }
     // 5
-    else if(timeBlock < 70*Math.PI) {
-      output = -wallLength/10 * (t - 70*Math.PI) / Math.PI + wallLength/2;
+    else if(timeBlock < 7.0/2*period) {
+      output = -2.0*wallLength/period * (timeBlock - 7.0/2*period) + wallLength/2;
     }
     // 6
     else {
       output = this.wallLength/2;
     }
-    return (int) output;
+    return (int) Math.floor(output);
   }
   public float yPos(float t) {
-    return (float) (0.5 + Math.sin(t));
+    return (float) (0.5 + 0.5*Math.sin(t));
   }
   
   // The setup block runs at the beginning of the animation. You could
@@ -106,7 +107,7 @@ public static class Animation extends WallAnimation {
     // move slats
     int x = 0;
     for (DWSlat slat : wall.slats) {
-      slat.setTop((float) (1 - (1.0/(1.0+Math.abs(x - xPos(time))))));
+      slat.setTop((float) (1 - (0.5/(1.0+Math.abs(x - xPos(time))))));
       slat.setBottom(positions[x++]);
     }
     
