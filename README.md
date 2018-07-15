@@ -4,7 +4,14 @@
 ---
 
 ### Contains
-- Doppler Effect - Dynamic Wall
+
+| Name | Category |
+| --- | --- |
+| Doppler Effect | Dynamic Wall |
+| MengAR (and Friends) | Augmented Reality |
+| Spirographs of Venus | Math Square |
+| Slope Fields | Math Square |
+| Purple Pendulums | Math Exploration | 
 
 ---
 
@@ -25,5 +32,5 @@ Previous year submission: [@Poobaloofa/howitfeelstochew5gum][5]
 [1]: https://www.github.com/Poobaloofa
 [2]: https://www.github.com/FinnCowbell
 [3]: https://www.github.com/rdk750
-[4]: ./img/LINK_team.jpg
+[4]: ./img/LINK_team-edited.jpg
 [5]: https://www.github.com/Poobaloofa/howitfeelstochew5gum
