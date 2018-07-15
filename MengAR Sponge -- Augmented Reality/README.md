@@ -15,7 +15,7 @@ Head over to [https://mengar.github.io][1] ([GitHub][2]) on a camera equippeed d
 
 The program looks for images in the real world ("markers") and creates a fractal on top of it. Currently supported fractals are:
 
-- The Menger Sponge (by construction)
+- The Menger Sponge (by recursive methods)
 - The Sierpinski Gasket (generated via the Chaos Game)
 
 ---
