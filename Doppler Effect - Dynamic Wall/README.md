@@ -43,7 +43,7 @@ These equations can be used from trivial matters like finding the speed of an in
     | 3.5-4 | Stay in the center. | |
 - The edges of the exhibit are considered "open"&mdash; the waves do not reflect back from the edges.
 
-[1]: ../img/doppler.png
+[1]: ./img/doppler.png
 [2]: https://latex.codecogs.com/gif.latex?f=\frac{v}{\lambda}
 [3]: https://latex.codecogs.com/gif.latex?f'=\frac{v_{src}&plus;v}{\lambda}=\frac{v_{src}&plus;v}{v}f
 [4]: http://www.astro.ucla.edu/~wright/doppler.htm
