@@ -11,11 +11,11 @@ Watch a demo (YouTube video):
 ---
 
 ### The Submission
-Head over to [https://mengar.github.io][1] ([GitHub][2]) on a camera equippeed device, and point the camera at one of these markers ([here][4] and [here][5]) (or both!) to see the fractals in AR.
+Head over to [https://mengar.github.io][1] ([GitHub][2]) on a camera equipped device, and point the camera at one of these markers ([here][4] and [here][5]) (or both!) to see the fractals in AR.
 
 The program looks for images in the real world ("markers") and creates a fractal on top of it. Currently supported fractals are:
 
-- The Menger Sponge (by recursive methods)
+- The Mengar Sponge (by recursive methods)
 - The Sierpinski Gasket (generated via the Chaos Game)
 
 ---
