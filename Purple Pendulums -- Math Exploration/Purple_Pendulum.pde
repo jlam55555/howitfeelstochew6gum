@@ -1,11 +1,14 @@
 class Pendulum{
   float length;
-  float r = random(150);
-  float g = 0;
-  float b = random(100,256);
+  float r;
+  float g;
+  float b;
   float greenness = 255;
   Pendulum(float l){
     length = l;
+    r = 200 * (1.0 - length / 200.0) + random(-15,55);
+    g = 0;
+    b = 200 * length/200.0 + random(-15,55);  
   }
   void display(float t){
     PVector temp = PVector.fromAngle(PI*cos(1*t/sqrt(length))/6+PI*3/2);
