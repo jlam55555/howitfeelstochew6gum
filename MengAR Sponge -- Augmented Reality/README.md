@@ -3,7 +3,7 @@
 **Project Category**: Augmented Reality
 **Team**: LINK
 
-[Watch a demo][0]
+![[Watch a demo][0]][0.1]
 
 ---
 
@@ -24,7 +24,8 @@ Fractals are abstract mathematical representation of self-symmetric shapes. They
 
 ### Additional Notes
 
-[0]: ./assets/mengar_demo.mov
+[0.1]: https://i.ytimg.com/vi/3pRAFkfASDU/hqdefault.jpg
+[0]: https://youtu.be/3pRAFkfASDU
 [1]: https://mengar.github.io
 [2]: https://github.com/mengar/mengar.github.io
 [3]: https://www.quora.com/How-is-the-Mandelbrot-Set-used-in-real-life
