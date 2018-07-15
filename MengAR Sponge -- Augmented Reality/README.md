@@ -3,10 +3,30 @@
 **Project Category**: Augmented Reality
 **Team**: LINK
 
+[Watch a demo][0]
+
 ---
 
-### The Math and the Submission
+### The Submission
+Head over to [https://mengar.github.io][1] ([GitHub][2]) on a camera equippeed device, and point the camera at one of these markers ([here][4] and [here][5]) (or both!) to see the fractals in AR.
+
+The program looks for images in the real world ("markers") and creates a fractal on top of it. Currently supported fractals are:
+
+- The Menger Sponge (by construction)
+- The Sierpinski Gasket (generated via the Chaos Game)
+
+---
+
+### The Math
+Fractals are abstract mathematical representation of self-symmetric shapes. They are commonly found in nature, are aesthetically pleasing, and have many technological applications, from cell phone antannae to topological generation in computer graphics. Even fractals commonly used for teaching purposes, such as the very well-known Julia and Mendelbrot sets, are being applied to other fields such as cryptography ([source][3]).
 
 ---
 
 ### Additional Notes
+
+[0]: ./assets/mengar_demo.mov
+[1]: https://mengar.github.io
+[2]: https://github.com/mengar/mengar.github.io
+[3]: https://www.quora.com/How-is-the-Mandelbrot-Set-used-in-real-life
+[4]: https://github.com/mengar/mengar.github.io/raw/master/img/menger-marker.png
+[5]: https://github.com/mengar/mengar.github.io/raw/master/img/sierpinski-marker.png

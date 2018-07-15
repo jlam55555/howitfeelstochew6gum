@@ -15,12 +15,15 @@
 - [N]avin, Finn ([@FinnCowbell][2])
 - [K]iefer, Rahul ([@rdk750][3])
 
+![LINK team][4]
+
 ---
 
-Previous year submission: [@Poobaloofa/howitfeelstochew5gum][4]
+Previous year submission: [@Poobaloofa/howitfeelstochew5gum][5]
 
 [0]: https://www.github.com/jlam55555
 [1]: https://www.github.com/Poobaloofa
 [2]: https://www.github.com/FinnCowbell
 [3]: https://www.github.com/rdk750
-[4]: https://www.github.com/Poobaloofa/howitfeelstochew5gum
+[4]: ./img/LINK_team.jpg
+[5]: https://www.github.com/Poobaloofa/howitfeelstochew5gum
