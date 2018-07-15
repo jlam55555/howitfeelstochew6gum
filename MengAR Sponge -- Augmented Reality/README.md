@@ -5,7 +5,8 @@
 
 Watch a demo (YouTube video):
 
-![[Watch a demo][0]][0.1]
+[![Watch a demo][0.1]][0]
+
 
 ---
 
