@@ -20,16 +20,16 @@ const bounds = 6;
 const mode = 1;
 
 // choose function with id
-function dydx(x,y,p,id){
-  switch(id) {
-    case 0:
-      return Math.sin(x + (p.frameCount/40)) + Math.cos(y/4);
-    case 1:
-      return x*y;
-    case 2:
-      return x+y;
-  }
-}
+let fns = [
+  (x, y, p) => Math.sin(x + (p.frameCount/40)) + Math.cos(y/4),
+  (x, y,p) => x + y + Math.sin(p.frameCount/40),
+  (x, y) => x * y,
+  (x,y) => Math.sin(x) + y ,
+  (x,y,p) => x % (y - bounds) - Math.sin(p.frameCount/40)/3,
+  (x,y) => x - y,
+  (x,y) => Math.cos(x) + y
+];
+let dydx = (x,y,p,id) => fns[id](x, y, p);
 
 // setup
 pb.preload = function (p) {};
@@ -41,19 +41,12 @@ pb.draw = function (floor, p) {
 
   var ugX = this.width/(2*bounds);
   var ugY = this.height/(2*bounds);
-
-  let frameBlock = p.frameCount % (18 * frameRate);
-  let animId;
-  if(frameBlock < 6 * frameRate)
-    animId = 0;
-  else if(frameBlock < 12 * frameRate)
-    animId = 1;
-  else
-    animId = 2;
-
+  let slideLength = 20 * frameRate;
+  let frameBlock = p.frameCount % (fns.length * slideLength);
+  let animId = Math.floor(frameBlock / slideLength)
   this.clear();
   if(mode)
-    this.background(250, 250, 250);
+    this.background(255,255,255);
   else {
     this.fill(236, 239, 241);
     for(var x = -bounds; x<=bounds; x++){
