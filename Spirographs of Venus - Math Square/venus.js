@@ -11,6 +11,7 @@ import P5Behavior from 'p5beh';
 
 const pb = new P5Behavior();
 
+// for WEBGL: pb.renderer = 'webgl';
 pb.setup = function(p) {
   p.frameRate(60)
 }
@@ -67,12 +68,12 @@ function Orbit(x, y, radius, p) {
   this.lines = []
   this.age = 0
   this.decay = false
+  this.expand = 0.01
   this.alpha = 255
   //(0-300),100,50
   p.colorMode('hsv');
-  this.color = hsvToRgb(((getRadius(x,y))/300),1,1)
+  this.color = hsvToRgb(((getRadius(x,y))/350),1,1)
   p.colorMode('rgb');
-  console.log(this.color)
   this.red = this.color[0]
   this.green = this.color[1]
   this.blue = this.color[2]
@@ -91,15 +92,22 @@ function Orbit(x, y, radius, p) {
     p.stroke(255, parseInt(this.alpha))
     p.strokeWeight(1)
     p.noFill()
-    p.ellipse(p.width / 2, p.height / 2, this.radius * 2) //orbit path
+    if(this.expand < Math.PI){ //runs the pretty opening animation
+      this.startAngle = this.angle
+      p.arc(p.width/2,p.height/2,this.diameter,this.diameter,this.startAngle,this.startAngle + this.expand)
+      p.arc(p.width/2,p.height/2,this.diameter,this.diameter,this.startAngle-this.expand,this.startAngle)
+      this.expand += .1
+    } else{
+      p.ellipse(p.width / 2, p.height / 2, this.radius * 2) //orbit
+    }
     p.fill(this.red, this.green, this.blue, this.alpha)
     p.noStroke()
     p.ellipse(this.x, this.y, 20)
     this.angle += this.speed;
     this.age++
-      if ((this.age >= 750 && orbitals.length >= 4 && orbitals.indexOf(this) == 0) || (orbitals.length >= 5 && orbitals.indexOf(this) == 0) || this.lines.length > 700) { //If orbital is old on cluttered screen or if has been vacant for a while.
-        this.decay = true
-      }
+    if ((this.age >= 750 && orbitals.length >= 4 && orbitals.indexOf(this) == 0) || (orbitals.length >= 5 && orbitals.indexOf(this) == 0) || this.lines.length > 700) { //If orbital is old on cluttered screen or if has been vacant for a while.
+      this.decay = true
+    }
     if (this.decay) {
       this.alpha -= 1
       if (this.alpha < 0) {
@@ -167,7 +175,7 @@ pb.draw = function(floor, p) {
   };
 
     export const behavior = {
-      title: "Spectrographs of Venus",
+      title: "Spirographs of Venus",
       init: pb.init.bind(pb),
       frameRate: 'animate',
       render: pb.render.bind(pb),
