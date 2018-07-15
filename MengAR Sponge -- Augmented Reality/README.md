@@ -3,6 +3,8 @@
 **Project Category**: Augmented Reality
 **Team**: LINK
 
+Watch a demo (YouTube video):
+
 ![[Watch a demo][0]][0.1]
 
 ---
