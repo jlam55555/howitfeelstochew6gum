@@ -44,5 +44,5 @@
 [1]: http://blog.recursiveprocess.com/wp-content/uploads/2015/05/Screenshot-2015-05-18-at-11.48.24-AM1.png
 [2]: ./img/Example%201.jpg?raw=true
 [3]: ./img/Example%202.jpg?raw=true
-[4]: ./img/Example%203.jpg?raw=true
+[4]: ./img/example%203.jpg?raw=true
 [5]: ../../../
