@@ -42,6 +42,6 @@
 ![][4]
 
 [1]: http://blog.recursiveprocess.com/wp-content/uploads/2015/05/Screenshot-2015-05-18-at-11.48.24-AM1.png
-[2]: https://github.com/jlam55555/howitfeelstochew6gum/blob/master/Spirographs%20of%20Venus%20-%20Math%20Square/img/Example%201.jpg?raw=true
-[3]: https://github.com/jlam55555/howitfeelstochew6gum/blob/master/Spirographs%20of%20Venus%20-%20Math%20Square/img/Example%202.jpg?raw=true
-[4]: https://github.com/jlam55555/howitfeelstochew6gum/blob/master/Spirographs%20of%20Venus%20-%20Math%20Square/img/Example%203.jpg?raw=true
+[2]: ./img/Example%201.jpg?raw=true
+[3]: ./img/Example%202.jpg?raw=true
+[4]: ./img/Example%203.jpg?raw=true
