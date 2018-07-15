@@ -1,7 +1,7 @@
-# MengAR Sponge (and Friends)
+# MoMath Hackathon 2018: MengAR Sponge (and Friends)
 
 **Project Category**: Augmented Reality
-**Team**: LINK
+**Team**: [LINK][8]
 
 Watch a demo (YouTube video):
 
@@ -38,3 +38,4 @@ Fractals are abstract mathematical representation of self-symmetric shapes. They
 [5]: https://github.com/mengar/mengar.github.io/raw/master/img/sierpinski-marker.png
 [6]: https://github.com/jeromeetienne/AR.js/blob/master/README.md
 [7]: https://threejs.org/
+[8]: ../../

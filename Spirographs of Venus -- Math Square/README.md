@@ -1,7 +1,7 @@
-# Spirographs of Venus
+# MoMath Hackathon 2018: Spirographs of Venus
 
 **Project Category**: Math Square
-**Team**: LINK
+**Team**: [LINK][5]
 
 ---
 
@@ -45,3 +45,4 @@
 [2]: ./img/Example%201.jpg?raw=true
 [3]: ./img/Example%202.jpg?raw=true
 [4]: ./img/Example%203.jpg?raw=true
+[5]: ../../

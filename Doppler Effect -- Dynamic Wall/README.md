@@ -1,7 +1,7 @@
-# Doppler effect
+# MoMath Hackathon 2018: Doppler Effect
 
 **Project Category**: Dynamic Wall
-**Team**: LINK
+**Team**: [LINK][5]
 
 ![doppler effect dynamic wall in motion][1]
 
@@ -47,3 +47,4 @@ These equations can be used from trivial matters like finding the speed of an in
 [2]: https://latex.codecogs.com/gif.latex?f=\frac{v}{\lambda}
 [3]: https://latex.codecogs.com/gif.latex?f'=\frac{v_{src}&plus;v}{\lambda}=\frac{v_{src}&plus;v}{v}f
 [4]: http://www.astro.ucla.edu/~wright/doppler.htm
+[5]: ../../

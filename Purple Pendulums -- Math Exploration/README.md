@@ -1,7 +1,7 @@
-# Purple Pendulums
+# MoMath Hackathon 2018: Purple Pendulums
 
 **Project Category**: Math Exploration
-**Team**: LINK
+**Team**: [LINK][2]
 
 ![purple-pendulums][0]
 
@@ -18,3 +18,4 @@ For small angles (thirty degrees is stretching it) the period is proportional to
 
 [0]: ./img/purple-pendulums.png
 [1]: https://github.com/Poobaloofa/howitfeelstochew5gum/tree/master/Stacked%20Sine%20-%20Dynamic%20Wall
+[2]: ../../
