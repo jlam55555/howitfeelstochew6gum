@@ -1,6 +1,6 @@
 /* MoMath Math Square Behavior
  *
- *        Title: P5 Example
+ *        Title: Spirographs of Venus
  *  Description: Display user blobs and sensors (same as debug)
  * Scheduler ID:
  *    Framework: P5
@@ -141,7 +141,7 @@ pb.draw = function(floor, p) {
 };
 
 export const behavior = {
-  title: "Polygons of Venus",
+  title: "Spirographs of Venus",
   init: pb.init.bind(pb),
   frameRate: 'animate',
   render: pb.render.bind(pb),
